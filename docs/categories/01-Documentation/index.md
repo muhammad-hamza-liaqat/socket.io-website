@@ -198,7 +198,7 @@ That being said, we believe that, if you use plain WebSockets for your applicati
 
 - `4` being Engine.IO "message" packet type
 - `2` being Socket.IO "message" packet type
-- `["hello","world"]` being the `JSON.stringify()`-ed version of the arguments array
+- `["hello","world"]` being the `JSON.stringify()`-ed version of the arguments array.
 
 So, a few additional bytes for each message, which can be further reduced by the usage of a [custom parser](../06-Advanced/custom-parser.md).
 
